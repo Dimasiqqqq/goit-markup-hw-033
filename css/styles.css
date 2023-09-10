@@ -239,10 +239,12 @@ p, h1, h2, h3, h4, h5 {
 
 /* our-team */
 
+.container our-team {
+    padding: 120px 0;
+}
+
 .our-team-title {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    text-align: center;
+        text-align: center;
     margin: 0 auto;
     color: var(--color-dark);
     font-size: 36px;
