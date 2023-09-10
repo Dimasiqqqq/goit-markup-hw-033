@@ -17,6 +17,10 @@ body {
     font-size: 16px;
 }
 
+.img {
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
@@ -39,10 +43,6 @@ p, h1, h2, h3, h4, h5 {
 }
 
 /* header */
-
-.header {
-    border-bottom: 1px solid var(--color-border);
-}
 
 .header-nav {
     align-items: center;
@@ -71,8 +71,7 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .logo {
-        display: block;
-        align-items: center;
+            align-items: center;
     color:var(--color-word-web);
     font-size: 18px;
     font-weight: 700;
@@ -144,9 +143,12 @@ p, h1, h2, h3, h4, h5 {
     text-align: center
 }    
 
-.hero-title {
+.hero-title-section {
     max-width: 496px;
-    text-align: center;
+}
+
+.hero-title {
+       text-align: center;
     margin: 0 auto;
     color: var(--color-brand);
     font-size: 56px;
