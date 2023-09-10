@@ -5,6 +5,7 @@
   --color-background-white: #F4F4FD;
   --color-adress: #434455;
   --color-span: #404bbf;
+  --color-border: #e7e9fc;
   }
 
 /* global */
@@ -31,12 +32,17 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .container {
-    max-width: 1440px;
+    display: flex;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 156px;    
 }
 
 /* header */
+
+.header {
+    border-bottom: 1px solid var(--color-border);
+}
 
 .header-nav {
     align-items: center;
@@ -65,7 +71,7 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .logo {
-        display: flex;
+        display: block;
         align-items: center;
     color:var(--color-word-web);
     font-size: 18px;
