@@ -260,7 +260,7 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .our-team-img {
-    border: 1px solid var(--color-adress);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-members {
@@ -270,6 +270,7 @@ p, h1, h2, h3, h4, h5 {
     line-height: 1.2; 
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px
 }
 
 .our-team-profession {
@@ -287,6 +288,10 @@ p, h1, h2, h3, h4, h5 {
 .our-team-background {
     background-color: var(--color-brand);
     flex-basis: calc(100%-72px) / 4;
+}
+
+.name-profession {
+    padding: 32px 0;
 }
 
 /* our portfolio */
