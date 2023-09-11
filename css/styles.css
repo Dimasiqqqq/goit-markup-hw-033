@@ -61,18 +61,6 @@ p, h1, h2, h3, h4, h5 {
     gap: 24px;
 }
 
-.nav-logo {
-    display: flex;
-    margin-right: 76px;
-}
-
-.nav-div {
-    display: flex;
-    gap: 40px;
-}
-
-
-
 .header-link {
         display: flex;
     gap: 40px;
@@ -81,12 +69,11 @@ p, h1, h2, h3, h4, h5 {
 .nav-list {
     display: flex;
     gap: 40px;
-    flex-grow: 1;
-    justify-content: center;
-}
+    }
 
 .logo {
-            align-items: center;
+    margin-right: 76px;
+    align-items: center;
     color:var(--color-word-web);
     font-size: 18px;
     font-weight: 700;
@@ -134,7 +121,8 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .adress-link {
-    display: inline-block; 
+    display: flex;
+    gap: 40px;
     font-style: normal;
     }
 
