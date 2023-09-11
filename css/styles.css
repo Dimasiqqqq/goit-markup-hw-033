@@ -32,7 +32,6 @@ ul {
 }
 
 .container {
-    display: flex;
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;    
@@ -44,7 +43,7 @@ ul {
     border-bottom: 1px solid var(--color-border);
 }
 
-.container header {
+.header-inner {
     display: flex;
     max-width: 1158px;
     margin: 0 auto;
@@ -344,12 +343,6 @@ letter-spacing: 0.02em;
 }
 
 /* footer */
-
-.container footer{
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;  
-}
 
 .footer-section {
     background-color: var(--color-dark);
