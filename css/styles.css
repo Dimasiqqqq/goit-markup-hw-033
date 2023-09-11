@@ -54,6 +54,7 @@ ul {
     align-items: center;
     display: flex;
     gap: 24px;
+    flex-grow: 1;
     }
 
 .nav-list {
@@ -115,6 +116,7 @@ ul {
 }
 
 .adress-item {
+    padding: 24px 0;
     display: flex;
     gap: 40px;    
 }
@@ -154,6 +156,7 @@ ul {
 }
 
 .hero-button {
+    margin: 0 auto;
     display: block;
     min-width: 169px;
     height: 56px;
