@@ -226,6 +226,12 @@ ul {
     padding: 120px 0;
 }
 
+.container-our-team {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px; 
+}
+
 .our-team-title {
     text-align: center;
     margin: 0 auto;
@@ -280,6 +286,12 @@ ul {
 
 /* our portfolio */
 
+.container-our-portfolio{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;  
+}
+
 .portfolio-section {
     padding-top: 120px; 
     padding-bottom: 120px;
@@ -330,6 +342,12 @@ letter-spacing: 0.02em;
 }
 
 /* footer */
+
+.container-footer{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;  
+}
 
 .footer-section {
     background-color: var(--color-dark);
