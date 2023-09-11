@@ -41,8 +41,14 @@ ul {
 /* header */
 
 .header {
-
     border-bottom: 1px solid var(--color-border);
+}
+
+.container-header {
+    display: flex;
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px; 
 }
 
 .header-nav {
@@ -133,10 +139,6 @@ ul {
     background-color: var(--color-dark);
     }    
 
-.container hero-inner {
-    align-items: center;
-}
-
 .hero-title-section {
     max-width: 496px 
 }
@@ -226,7 +228,7 @@ ul {
     padding: 120px 0;
 }
 
-.container-our-team {
+.container our-team {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px; 
@@ -286,13 +288,13 @@ ul {
 
 /* our portfolio */
 
-.container-our-portfolio{
+.container our-portfolio {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;  
+    padding: 0 15px; 
 }
 
-.portfolio-section {
+ .portfolio-section {
     padding-top: 120px; 
     padding-bottom: 120px;
 }
