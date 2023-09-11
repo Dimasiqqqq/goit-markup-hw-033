@@ -52,8 +52,7 @@ p, h1, h2, h3, h4, h5 {
     align-items: center;
     display: flex;
     gap: 24px;
-    flex-grow: 1;
-}
+    }
 
 .header-inner-container {
     display: flex; 
@@ -175,10 +174,6 @@ p, h1, h2, h3, h4, h5 {
     line-height: 1.07; 
     letter-spacing: 0.02em;
     padding-bottom: 48px;
-}
-
-.hero-button-section {
-    
 }
 
 .hero-button {
