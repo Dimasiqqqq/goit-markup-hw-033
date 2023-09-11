@@ -231,7 +231,7 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .our-team-title {
-        text-align: center;
+    text-align: center;
     margin: 0 auto;
     color: var(--color-dark);
     font-size: 36px;
@@ -273,6 +273,7 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .our-team-background {
+    border-radius: 0px 0px 4px 4px;
     background-color: var(--color-brand);
     flex-basis: calc(100%-72px) / 4;
 }
