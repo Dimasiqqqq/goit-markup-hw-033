@@ -227,12 +227,6 @@ ul {
     padding: 120px 0;
 }
 
-.container our-team {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px; 
-}
-
 .our-team-title {
     text-align: center;
     margin: 0 auto;
@@ -324,7 +318,7 @@ text-align: center;
 }
 
 .portfolio-item {
-    flex-basis: calc(100%-48px) / 3;
+    width: calc(100% - 72px) / 4;
 }  
 
 .portfolio-examples {
