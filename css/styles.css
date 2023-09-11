@@ -333,8 +333,11 @@ letter-spacing: 0.02em;
 
 .footer-section {
     background-color: var(--color-dark);
+    padding: 100px 0;
 }
 .logo-end {
+    display: inline-block;
+    margin-bottom: 16px; 
     color: var(--color-word-web);
     font-size: 18px;
     font-weight: 700;
@@ -343,10 +346,6 @@ letter-spacing: 0.02em;
     font-family: 'Raleway', sans-serif; 
     text-transform: uppercase;
    }
-
-.footer-logo {
-    padding-bottom: 16px;
-}
 
 .footer-text {
     color: var(--color-background-white);
