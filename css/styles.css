@@ -45,6 +45,7 @@ p, h1, h2, h3, h4, h5 {
 /* header */
 
 .header {
+
     border-bottom: 1px solid var(--color-border);
 }
 
@@ -53,18 +54,6 @@ p, h1, h2, h3, h4, h5 {
     display: flex;
     gap: 24px;
     }
-
-.header-inner-container {
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-}
-
-.header-link {
-        display: flex;
-    gap: 40px;
-}
 
 .nav-list {
     display: flex;
@@ -121,10 +110,13 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .adress-link {
-    display: flex;
-    gap: 40px;
     font-style: normal;
-    }
+}
+
+.adress-item {
+    display: flex;
+    gap: 40px;    
+}
 
 .adress-text:hover {
     color: var(--color-span);
