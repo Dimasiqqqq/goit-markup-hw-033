@@ -19,7 +19,8 @@ body {
 
 img {
     display: block;
-}
+    width: 100%; 
+    }
 
 a {
     text-decoration: none;
@@ -226,7 +227,7 @@ ul {
 /* our-team */
 
 .our-team-c {
-    
+    padding: 120px 0;
 }
 
 .our-team-title {
@@ -251,11 +252,12 @@ ul {
 
 .our-team-members {
     color: var(--color-dark);
-        font-size: 20px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2; 
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
     }
 
 .our-team-profession {
@@ -266,7 +268,7 @@ ul {
 }
 
 .our-team {
-    padding-bottom: 120px;
+    
     background-color: var(--color-background-white);
 }
 
@@ -289,10 +291,12 @@ padding: 0 15px;
 }
 
  .portfolio-section {
+    padding-top: 120px; 
     padding-bottom: 120px;
 }
 
 .portfolio-title {
+    margin-bottom: 72px;
         color: var(--color-dark);
        font-size: 36px;
 line-height: 1.11; 
@@ -315,15 +319,16 @@ text-align: center;
 }
 
 .portfolio-item {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 3);
 }  
 
 .portfolio-examples {
-    color: var(--color-dark);
-        font-size: 20px;
+color: var(--color-dark);
+font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 
 .portfolio-examples-p {
@@ -340,7 +345,7 @@ letter-spacing: 0.02em;
 }
 .logo-end {
     display: inline-block;
-    
+    margin-bottom: 16px;
     color: var(--color-word-web);
     font-size: 18px;
     font-weight: 700;
