@@ -227,8 +227,7 @@ ul {
 /* our-team */
 
 .our-team-c {
-    padding: 120px 0;
-}
+    }
 
 .our-team-title {
     text-align: center;
@@ -268,7 +267,7 @@ ul {
 }
 
 .our-team {
-    
+    padding: 120px 0;
     background-color: var(--color-background-white);
 }
 
