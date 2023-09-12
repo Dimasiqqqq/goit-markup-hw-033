@@ -53,7 +53,6 @@ ul {
 .header-nav {
     align-items: center;
     display: flex;
-    gap: 24px;
     flex-grow: 1;
     }
 
@@ -152,7 +151,7 @@ ul {
     font-size: 56px;
     line-height: 1.07; 
     letter-spacing: 0.02em;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .hero-button {
@@ -219,15 +218,15 @@ ul {
 
 .advantage-text {
     color: var(--color-adress);
-        line-height: 1.5; 
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     max-width: 264px;
 }
 
 /* our-team */
 
-.our-team {
-    padding: 120px 0;
+.our-team-c {
+    
 }
 
 .our-team-title {
@@ -257,8 +256,7 @@ ul {
     line-height: 1.2; 
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 8px;
-}
+    }
 
 .our-team-profession {
     color: var(--color-adress);
@@ -291,15 +289,11 @@ padding: 0 15px;
 }
 
  .portfolio-section {
-    padding-top: 120px; 
     padding-bottom: 120px;
 }
 
 .portfolio-title {
-    margin-bottom: 72px; 
-    padding-top: 120px;
-    padding-bottom: 72px;
-    color: var(--color-dark);
+        color: var(--color-dark);
        font-size: 36px;
 line-height: 1.11; 
 letter-spacing: 0.02em;
@@ -330,7 +324,6 @@ text-align: center;
 font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.02em;
-margin-bottom: 8px;
 }
 
 .portfolio-examples-p {
@@ -347,7 +340,7 @@ letter-spacing: 0.02em;
 }
 .logo-end {
     display: inline-block;
-    margin-bottom: 16px; 
+    
     color: var(--color-word-web);
     font-size: 18px;
     font-weight: 700;
